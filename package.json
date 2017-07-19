@@ -1,0 +1,17 @@
+{
+  "name": "popularity_test",
+  "version": "1.0.0",
+  "description": "Testing assumptions about simplified ranking solutions",
+  "main": "popularity.js",
+  "dependencies": {
+    "dotenv": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "calculate": "nodemon popularity.js .env"
+  },
+  "author": "",
+  "license": "ISC"
+}
